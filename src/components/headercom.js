@@ -22,8 +22,6 @@ toggleNav(){
       <Navbar dark expand = "md">
         <div className="container">
             <NavbarBrand className = "mr-auto" href="/">
-                <img src = "C:\Users\nmaju\Documents\academind reactjs basics\academindtutorial\src\logo.svg" height ="30"
-                 width = "20" alt = "Some f "/>
                 Ristorante Con Fusion
             </NavbarBrand>
             <NavbarToggler onClick = {this.toggleNav} className = "ml-auto"/>
@@ -34,6 +32,9 @@ toggleNav(){
                </NavItem>
                <NavItem>
                    <NavLink className = "nav-link" to = "/menu"> Menu </NavLink>
+               </NavItem>
+               <NavItem>
+                   <NavLink className = "nav-link" to = "/contactus"> Contact </NavLink>
                </NavItem>
            </Nav>
            </Collapse>
