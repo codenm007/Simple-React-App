@@ -5,7 +5,7 @@ function Rendermenuitem(){
     return(
         <div className = "container">
         <div className = "row">
-        Hello how are you !
+      <h1> MENU  welcomes you !</h1>
         </div>
     </div>
     );
